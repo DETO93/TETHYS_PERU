@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 user = os.getlogin()
 user_dir = os.path.expanduser('~{}'.format(user))
 os.chdir(user_dir)
-os.chdir("tethys_apps_peru/backend-geoglows_peru")
+os.chdir("TETHYS_PERU/backend-geoglows_peru")
 
 # Import enviromental variables
 load_dotenv()
