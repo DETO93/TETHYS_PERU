@@ -3,7 +3,7 @@ from tethys_apps.app_installation import find_all_resource_files
 from tethys_apps.base.app_base import TethysAppBase
 
 # -- Apps Definition -- #
-app_package = 'national_water_level_forecast_ecuador'
+app_package = 'national_water_level_forecast_peru'
 release_package = f'{TethysAppBase.package_namespace}-{app_package}'
 
 # -- Python Dependencies -- #
@@ -19,8 +19,8 @@ setup(
     description='',
     long_description='',
     keywords='',
-    author='Juseth Chancay',
-    author_email='juseth.chancay@gmail.com',
+    author='Juseth Chancay, jhonatan rodriguez y david trujillo',
+    author_email='juseth.chancay@gmail.com, davidenriquet@gmail.com',
     url='',
     license='',
     packages=find_namespace_packages(),
